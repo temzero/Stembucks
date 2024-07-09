@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" href="img/starbucks-logo.svg" type="starbucks-logo">
+    <title>Stembucks</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img src="img/starbucks-logo.svg" alt="Starbucks">
+                </a>
+            </div>
+            <ul class="navbar-nav-left">
+                <li>
+                    <a href="/menu.html">Menu</a>
+                </li>
+                <li>
+                    <a href="/rewards.html">Rewards</a>
+                </li>
+                <li>
+                    <a href="/gift.html">Gift Cards</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav-right">
+                <li>
+                    <a href="/store-locator.html">
+                        <img src="img/marker.svg" alt="find a store">
+                        <span>Find a Store</span>
+                    </a>
+                </li>
+                <li><button class="btn btn-white" onclick="window.location.href='/signin.html';">Sign in</button></li>
+                <li><button class="btn btn-black" onclick="window.location.href='/join.html';">Join Now</button></li>
+
+            </ul>
+
+            <!-- Hamburger Menu Icon -->
+            <button type="button" class="hamburger" id="menu-btn">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+              </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="menu">
+        <ul>
+            <li>
+                <a href="/menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="/rewards.html">Rewards</a>
+            </li>
+            <li>
+                <a href="/gift.html">Gift Cards</a>
+            </li>
+        </ul>
+
+        <div class="mobile-menu-bottom">
+            <button class="btn btn-white" onclick="window.location.href='/signin.html';">Sign in</button>
+            <button class="btn btn-black" onclick="window.location.href='/join.html';">Join Now</button>
+            <div>
+                <a href="/store-locator.html">
+                    <img src="img/marker.svg" alt="find a store">
+                    <span>Find a Store</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Box A -->
+    <section class="box box-a bg-secondary text-center py-md">
+        <div class="box-inner">
+            <h2 class="text-lg text-upper">Ban da thu Stembucks mien phi Bao gio chua?</h2>
+            <p class="text-sm">
+                Join Starbucks Rewards for delicious deals & exclusive offers.
+                <a href="/rewards.html">Learn more</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Box B -->
+    <section class="box box-b bg-caper grid-col-2 grid-reversed">
+        <img src="img/starbucks app.webp" alt="">
+        <div class="box-text">
+            <h2 class="text-md color-transparent">Enjoy half off your first drink</h2>
+            <p class="text-sm color-transparent">Download the app for half off a handcrafted drink during your first week.* Plus, tap into mobile ordering, exclusive offers and so much more.</p>
+            <a href="https://www.starbucks.com/rewards/promo/redeem?_branch_match_id=1338848606110779524&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXLy5JLEoqTc4u1kssKNDLyczL1jeIrLIoNPAscvdKAgA7vdOJJgAAAA%3D%3D" 
+            class="btn btn-box btn-margin btn-white color-transparent">Sign up here</a>
+        </div>
+    </section>
+
+    <!-- Box C -->
+    <section class="box box-c bg-flirt grid-col-2">
+        <img src="img/drinks.webp" alt="">
+        <div class="box-text">
+            <h2 class="text-lg">Sunny-day essentials</h2>
+            <p class="text-md">Flavorful creations sure to brighten any summer day.</p>
+            <a href="https://www.starbucks.com/menu/featured/" 
+            class="btn btn-box btn-margin btn-white-outline">Order Now</a>
+        </div>
+    </section>
+
+    <!-- Box D -->
+    <section class="box box-d bg-skeptic grid-col-2 grid-reversed">
+        <img src="img/drinks and foods.jpg" alt="">
+        <div class="box-text">
+            <h2 class="text-md color-transparent">Meet the Starbucks Pairings Menu</h2>
+            <p class="text-sm color-transparent">Crave-worthy pairings including our new, best-ever iced coffee. Restrictions apply.​</p>
+            <a href="https://www.starbucks.com/offers/pairings/" 
+            class="btn btn-box btn-margin btn-white color-transparent">Learn more</a>
+        </div>
+    </section>
+
+    <!-- Box E -->
+    <section class="box box-e bg-flirt grid-col-2">
+        <img src="img/starbucks card.jpg" alt="">
+        <div class="box-text">
+            <h2 class="text-lg">Just because it’s summer</h2>
+            <p class="text-md">Treat someone special to a moment of delight with a Starbucks eGift.</p>
+            <a href="https://www.starbucks.com/gift" 
+            class="btn btn-box btn-margin btn-white-outline">Send an eGift</a>
+        </div>
+    </section>
+
+    <!-- Box F -->
+    <section class="box box-f bg-caper grid-col-2 grid-reversed">
+        <img src="img/starbucks sms.webp" alt="">
+        <div class="box-text">
+            <h2 class="text-md color-transparent">All the summer fun</h2>
+            <p class="text-sm color-transparent">Sign up for texts to stay in the know on all things Starbucks this summer.</p>
+            <a href="https://sms.starbucks.com/?utm_medium=website&utm_source=starbucks&utm_campaign=sms" 
+            class="btn btn-box btn-margin btn-white color-transparent">Let's go!</a>
+        </div>
+    </section>
+
+    <section class="box text-center">
+        <div class="box-text-center">
+            <p class="text-very-tiny color-transparent">*50% off handcrafted drink valid for 7 days from sign up, at participating stores. Must sign up via promo link by July 14, 2024 to be eligible. Limit one per member. 
+                Excludes delivery orders, alcohol, ready to drink and bottled beverages.</p>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="divider-footer"></div>
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">About Us</div>
+                <div class="accordion-content">
+                    <ul>
+                        <li><a href="">Our Company</a></li>
+                        <li><a href="">Our Coffee</a></li>
+                        <li><a href="">Stories and News</a></li>
+                        <li><a href="">Starbucks Archive</a></li>
+                        <li><a href="">Investor Relations</a></li>
+                        <li><a href="">Customer Service</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Careers</div>
+                <div class="accordion-content">
+                    <ul>
+                        <li><a href="">Culture and Values</a></li>
+                        <li><a href="">Inclusion, Diversity, and Equity</a></li>
+                        <li><a href="">College Achievement Plan</a></li>
+                        <li><a href="">Alumni Community</a></li>
+                        <li><a href="">U.S. Careers</a></li>
+                        <li><a href="">International Careers</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Social Impact</div>
+                <div class="accordion-content">
+                    <ul>
+                        <li><a href="">People</a></li>
+                        <li><a href="">Planet</a></li>
+                        <li><a href="">Environmental and Social Imapact Reporting</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">For Business Partners</div>
+                <div class="accordion-content">
+                    <ul>
+                        <li><a href="">Landlord Support Center</a></li>
+                        <li><a href="">Suppliers</a></li>
+                        <li><a href="">Corporate Gift Card Sales</a></li>
+                        <li><a href="">Office and Foodservice Coffee</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Order and Pick Up</div>
+                <div class="accordion-content">
+                    <ul>
+                        <li><a href="">Order on the App</a></li>
+                        <li><a href="">Order on the Webb</a></li>
+                        <li><a href="">Delivery</a></li>
+                        <li><a href="">Order and Pick Up Options</a></li>
+                        <li><a href="">Explore and Find Coffee for Home</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+        <div class="footer-container">
+            <div class="social">
+                <a href="https://open.spotify.com/user/starbucks"><img src="img/spotify.svg" alt=""></a>
+                <a href="https://facebook.com/starbucks"><img src="img/facebook.svg" alt=""></a>
+                <a href="https://instagram.com/starbucks"><img src="img/instagram.svg" alt=""></a>
+                <a href="https://x.com/starbucks/"><img src="img/twitter.svg" alt=""></a>
+                <a href="https://www.pinterest.com/starbucks/"><img src="img/pinterest.svg" alt=""></a>
+                <a href="https://www.youtube.com/starbucks"><img src="img/youtube.svg" alt=""></a>
+            </div>
+            
+            <a href="https://www.starbucks.com/terms/privacy-notice/"><p class="text-tiny">Privacy Notice</p></a>
+            <a href="https://www.starbucks.com/terms/privacy-notice/"><p class="text-tiny">Consumer Health Privacy Notice</p></a>
+            <a href="https://www.starbucks.com/terms/starbucks-terms-of-use/"><p class="text-tiny">Terms of Use</p></a>
+            <a href="https://www.starbucks.com/personal-information"><p class="text-tiny">Do Not Share My Personal Imformation</p></a>
+            <a href="https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-70076.pdf"><p class="text-tiny">CA Supply Chain Act</p></a>
+            <a href="https://www.starbucks.com/about-us/accessibility/"><p class="text-tiny">Accessibility</p></a>
+            <a href=""><p class="text-tiny">Cookie Preferences</p></a>
+            
+            <p class="text-very-tiny color-transparent2">© 2024 Starbucks Coffee Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
